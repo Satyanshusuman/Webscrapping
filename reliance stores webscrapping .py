@@ -37,6 +37,7 @@ for i in stores:
     latitude.append(i["latitude"])
     longitude.append(i["longitude"])
     phone_number.append(i["storeStaffMobile1"])
+    
 dic={"Store_Name":store_Name,"Address":address,"Timings":timings,"Latitude":latitude,"Longitude":longitude,"Phone_number":phone_number}
 df=pd.DataFrame(dic)
 df.to_csv("D:/python exersice/pandas/reliance_retail_stores.csv",)
