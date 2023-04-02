@@ -1,2 +1,2 @@
-# Webscrapping with python pandas
+# Webscrapping project with python pandas
 Reliance_stores locations in india....
