@@ -40,6 +40,7 @@ for i in stores:
     
 dic={"Store_Name":store_Name,"Address":address,"Timings":timings,"Latitude":latitude,"Longitude":longitude,"Phone_number":phone_number}
 df=pd.DataFrame(dic)
+df.fillna(0,inplace=True)
 df.to_csv("D:/python exersice/pandas/reliance_retail_stores.csv",)
 print(df)
 
